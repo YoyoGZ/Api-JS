@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "name": "David",
+      "lastName": "Guetta",
+      "email": "dguetta@email.com",
+      "password": "1234",
+      "role": "Admin",
+      "token": "ytgyhujmjkk33674u3390j3",
+      "id": 1
+    },
+    {
+      "name": "Bob",
+      "lastName": "Sinclair",
+      "email": "bobsinc@email.com",
+      "password": "1234",
+      "role": "Employee",
+      "token": "ytgyhujmjkk3tggubasv8564",
+      "id": 2
+    },
+    {
+      "name": "Calvin",
+      "lastName": "Harris",
+      "email": "calvin@email.com",
+      "password": "1234",
+      "role": "Admin",
+      "token": "ytasghasiamsk,55as1as4cas90j3",
+      "id": 3
+    }
+  ],
+  "courses": [
+    {
+      "name": "Angular  CLI",
+      "iniDate": "2024-01-06T03:00:00.000Z",
+      "finalDate": "2024-04-10T03:00:00.000Z",
+      "student": "Julian Alvarez",
+      "id": 2
+    },
+    {
+      "name": "Desarrollo Web",
+      "iniDate": "2024-01-15T03:00:00.000Z",
+      "finalDate": "2024-02-22T03:00:00.000Z",
+      "student": "Luisa Lopilato",
+      "id": 3
+    },
+    {
+      "name": "Diseno UX/UI",
+      "iniDate": "2023-12-13T03:00:00.000Z",
+      "finalDate": "2023-12-29T03:00:00.000Z",
+      "student": "Jonas Viale",
+      "id": 4
+    },
+    {
+      "name": "Poker",
+      "iniDate": "2023-12-01T03:00:00.000Z",
+      "finalDate": "2023-12-28T03:00:00.000Z",
+      "student": "Jonas Viale",
+      "id": 5
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Jonas",
+      "lastName": "Viale",
+      "email": "jonviale@mail.com",
+      "course": "Diseno UX/UI",
+      "role": "Student"
+    },
+    {
+      "id": 2,
+      "name": "Luisa",
+      "lastName": "Lopilato",
+      "course": "Desarrollo Web",
+      "email": "luisalopi@email.com",
+      "role": "Student"
+    },
+    {
+      "id": 3,
+      "name": "Julian",
+      "lastName": "Alvarez",
+      "course": "Angular CLI",
+      "email": "julialva@email.com",
+      "role": "Student"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Lionel",
+      "lastName": "Messi",
+      "curso": "Angular CLI",
+      "email": "lmessi@email.com",
+      "role": "Teacher"
+    },
+    {
+      "id": 2,
+      "name": "Jhon",
+      "lastName": "Wick",
+      "curso": "Diseno UX/UI",
+      "email": "jwick@email.com",
+      "role": "Teacher"
+    },
+    {
+      "id": 3,
+      "name": "Freeman",
+      "lastName": "Morgan",
+      "curso": "Desarrollo Web",
+      "email": "mrfree@email.com",
+      "role": "Teacher"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "courseId": 3,
+      "studentId": 3
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "studentId": 1
+    },
+    {
+      "studentId": 2,
+      "courseId": 2,
+      "id": 4
+    },
+    {
+      "studentId": 3,
+      "courseId": 3,
+      "id": 6
+    },
+    {
+      "studentId": 2,
+      "courseId": 4,
+      "id": 7
+    }
+  ]
+}
